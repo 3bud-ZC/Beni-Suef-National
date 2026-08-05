@@ -1,13 +1,17 @@
 import React from 'react';
 
 interface GradeBadgeProps {
-  rating: 'جيد جداً' | 'جيد' | 'مقبول' | 'ناجح';
+  rating: string;
 }
 
 export const GradeBadge: React.FC<GradeBadgeProps> = ({ rating }) => {
   let badgeClass = '';
 
   switch (rating) {
+    case 'ممتاز':
+    case 'امتياز':
+      badgeClass = 'grade-badge-excellent';
+      break;
     case 'جيد جداً':
       badgeClass = 'grade-badge-very-good';
       break;
@@ -19,6 +23,10 @@ export const GradeBadge: React.FC<GradeBadgeProps> = ({ rating }) => {
       break;
     case 'ناجح':
       badgeClass = 'grade-badge-pass';
+      break;
+    case 'راسب لايح':
+    case 'راسب':
+      badgeClass = 'grade-badge-fail';
       break;
     default:
       badgeClass = 'grade-badge-pass';

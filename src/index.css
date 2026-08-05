@@ -355,14 +355,19 @@ html, body {
   min-width: 76px;
 }
 
+.grade-badge-excellent {
+  background-color: #bbf7d0;
+  color: #14532d;
+}
+
 .grade-badge-very-good {
-  background-color: #fde8e8;
-  color: #c81e1e;
+  background-color: #dcfce7;
+  color: #15803d;
 }
 
 .grade-badge-good {
-  background-color: #fdf2f2;
-  color: #dc2626;
+  background-color: #ecfdf5;
+  color: #10b981;
 }
 
 .grade-badge-acceptable {
@@ -373,6 +378,11 @@ html, body {
 .grade-badge-pass {
   background-color: #f3e8ff;
   color: #7e22ce;
+}
+
+.grade-badge-fail {
+  background-color: #fde8e8;
+  color: #c81e1e;
 }
 
 /* Back Button / Actions */

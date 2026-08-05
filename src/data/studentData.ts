@@ -24,9 +24,9 @@ export const STUDENT_DATA: StudentData = {
     {
       id: 3,
       course: 'وحدة الغدد الصماء',
-      gradeString: '90 / 51',
-      rating: 'جيد',
-      points: 6,
+      gradeString: '90 / 40',
+      rating: 'راسب لايح',
+      points: 0,
     },
     {
       id: 4,
