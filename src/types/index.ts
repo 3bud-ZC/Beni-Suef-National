@@ -2,7 +2,7 @@ export interface CourseResult {
   id: number;
   course: string;
   gradeString: string;
-  rating: 'امتياز' | 'ممتاز' | 'جيد جداً' | 'جيد' | 'مقبول' | 'ناجح' | 'راسب لايح' | 'راسب' | string;
+  rating: 'امتياز' | 'ممتاز' | 'جيد جداً' | 'جيد' | 'مقبول' | 'ناجح' | 'راسب لائحة' | 'راسب لايح' | 'راسب' | string;
   points: number;
 }
 

@@ -24,6 +24,7 @@ export const GradeBadge: React.FC<GradeBadgeProps> = ({ rating }) => {
     case 'ناجح':
       badgeClass = 'grade-badge-pass';
       break;
+    case 'راسب لائحة':
     case 'راسب لايح':
     case 'راسب':
       badgeClass = 'grade-badge-fail';
