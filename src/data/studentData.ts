@@ -1,7 +1,7 @@
 import type { StudentData } from '../types';
 
 export const STUDENT_DATA: StudentData = {
-  studentName: 'عبده عبدالشافي علي بدوي',
+  studentName: 'عبده عبدالشافي علي بديوى',
   seatNumber: '230302',
   nationalId: '30502152604351',
   status: 'مستجد',
